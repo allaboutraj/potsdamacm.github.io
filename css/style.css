@@ -13,8 +13,8 @@
 	font-size: inherit;
 }
 
-HTML  CSS   Result
-Edit on 
+/* Timeline themes */
+/* Thanks to https://material.uplabs.com/posts/responsive-materialize-timeline */
 .timeline {
   position: relative;
 }
@@ -52,9 +52,6 @@ Edit on
   top: calc(50% + 30px);
 }
 
-
-/* Timeline themes */
-/* Thanks to https://material.uplabs.com/posts/responsive-materialize-timeline */
 .timeline .timeline-event:first-child::before {
   display: none;
 }
@@ -108,4 +105,10 @@ Edit on
   .timeline .timeline-badge {
     left: 0;
   }
+}
+
+
+/* Projects CSS */
+.middle-align {
+	vertical-align: middle; !important;
 }
