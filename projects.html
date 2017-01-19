@@ -42,119 +42,131 @@
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
         </nav>
-
-
-
         <div class="container">
-        <h1>Projects</h1>
+            <h1>Projects</h1>
             <div class="row">
                 <div class="col s12">
                     <ul class="tabs z-depth-1">
-                        <li class="tab col s6"><a class="active" href="#test1">Spring 2017</a></li>
-                        <li class="tab col s6"><a href="#test2">Fall 2016</a></li>
+                        <li class="tab col s6"><a class="active" href="#spring2017">Spring 2017</a></li>
+                        <li class="tab col s6"><a href="#fall2016">Fall 2016</a></li>
                     </ul>
                 </div>
-
                 <!-- Spring 2017 -->
-                <div id="test1">
-
-                <p class="flow-text">Projects coming soon! Check out Fall 2016.</p>
-
+                <div id="spring2017">
+                    <p class="flow-text">Projects coming soon! Check out Fall 2016.</p>
                 </div>
-
                 <!-- Fall 2016 -->
-                
-                <div id="test2">
+                <div id="fall2016">
 
-                    <div class="col m4 s12">
-                        <div class="card sticky-action">
-                            <div class="card-image">
-                                <img class="responsive-img activator" src="img/HPC.jpg">
+                    <!-- Begin HPC Card -->
+                    <a href="#hpc">
+                        <div class="col m6 s12">
+                            <div class="card sticky-action">
+                                <div class="card-content">
+                                    <p class="card-title">HPC Lab</p>
+                                    <p><i class="middle-align small material-icons">replay</i>Thursday</p>
+                                    <p><i class="middle-align small material-icons">av_timer</i>4:00 PM</p>
+                                    <p><i class="middle-align small material-icons">location_on</i>HPC Lab</p>
+                                </div>
                             </div>
-                            <div class="card-content">
-                                <p class="card-title">HPC Lab</p>
-                                <p><i class="middle-align small material-icons">replay</i>Thursday</p>
-                                <p><i class="middle-align small material-icons">av_timer</i>4:00 PM</p>
-                                <p><i class="middle-align small material-icons">location_on</i>HPC Lab</p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
-                                <p>Students met with Garry Griggs and James Laveri, Potsdam alumni, to help to setup the HPC lab for the next semester. Students engaged in the project learned the following: how to setup LDAP servers, and setting up a beowulf cluster.</p>
-                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Begin Modal for HPC -->
+                    <div id="hpc" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                            <h4>High Performance Computing Lab</h4>
+                            <img class="responsive-img activator" src="img/HPC.jpg">
+                            <p class="flow-text">Students met with Garry Griggs and James Laveri, Potsdam alumni, to help to setup the HPC lab for the next semester. Students engaged in the project learned the following: how to setup LDAP servers, and setting up a beowulf cluster.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
                         </div>
                     </div>
 
+                    <!-- Begin ACM Website Card -->
+                    <a href="#acmwebsite">
+                        <div class="col m6 s12">
+                            <div class="card">
+                                <div class="card-content">
+                                    <p class="card-title">ACM Website</p>
+                                    <p><i class="middle-align small material-icons">replay</i>Thursday</p>
+                                    <p><i class="middle-align small material-icons">av_timer</i>3:00 PM</p>
+                                    <p><i class="middle-align small material-icons">location_on</i>Unix Lab</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
 
-                    <div class="col m4 s12">
-                        <div class="card sticky-action">
-                            <div class="card-image">
-                                <img class="responsive-img activator" src="img/acmwebsite.png">
+                    <!-- Begin ACM Website Modal -->
+                    <div id="acmwebsite" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                            <h4>ACM Website</h4>
+                            <img class="responsive-img activator" src="img/acmwebsite.png">
+                            <p class="flow-text">Students met with Jesse Peplinski and Matt Coupal help to contribute to build the ACM website. This will officially kick off next semester. Students will learn the following: Web Development, Git, Github, Working on a team, HTML, CSS, Bootstrap, MaterializeCSS, Issue Tracking. </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+                        </div>
+                    </div>
+                   
+                    <!-- Begin Hack Potsdam Card -->
+                    <a href="#hackpotsdam">
+                        <div class="col m6 s12">
+                            <div class="card">
+                                <div class="card-content">
+                                    <p class="card-title">Hack Potsdam Website</p>
+                                    <p><i class="middle-align small material-icons">replay</i>N/A</p>
+                                    <p><i class="middle-align small material-icons">av_timer</i>N/A</p>
+                                    <p><i class="middle-align small material-icons">location_on</i>N/A</p>
+                                </div>
                             </div>
-                            <div class="card-content">
-                                <p class="card-title">ACM Website</p>
-                                <p><i class="middle-align small material-icons">replay</i>Thursday</p>
-                                <p><i class="middle-align small material-icons">av_timer</i>3:00 PM</p>
-                                <p><i class="middle-align small material-icons">location_on</i>Unix Lab</p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
-                                <p>Students met with Jesse Peplinski and Matt Coupal help to contribute to build the ACM website. This will officially kick off next semester. Students will learn the following: Web Development, Git, Github, Working on a team, HTML, CSS, Bootstrap, MaterializeCSS, Issue Tracking. </p>
-                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Begin Hack Potsdam Modal -->
+                    <div id="hackpotsdam" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                            <h4>Hack Potsdam</h4>
+                            <img class="responsive-img activator" src="img/hackpotsdam.png">
+                              <p class="flow-text">Jesse Peplinski created the homepage for Hack Potsdam, SUNY Potsdam and Clarkson University’s 24 hour hackathon. Students were encouraged to help.</p>
+                              <a href="http://hackpotsdam.com" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
                         </div>
                     </div>
 
-                    <div class="col m4 s12">
-                        <div class="card sticky-action">
-                            <div class="card-image">
-                                <img class="responsive-img activator" src="img/hackpotsdam.png">
-                            </div>
-                            <div class="card-content">
-                                <p class="card-title">Hack Potsdam Website</p>
-                                <p><i class="middle-align small material-icons">replay</i>N/A</p>
-                                <p><i class="middle-align small material-icons">av_timer</i>N/A</p>
-                                <p><i class="middle-align small material-icons">location_on</i>N/A</p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
-                                <p>Jesse Peplinski created the homepage for Hack Potsdam, SUNY Potsdam and Clarkson University’s 24 hour hackathon. Students were encouraged to help.</p>
-                                <a href="http://hackpotsdam.com" target="_blank">Visit Website</a>
+                    <!-- Begin VR Lab Card -->
+                    <a href="#vrlab">
+                        <div class="col m6 s12">
+                            <div class="card">
+                                <div class="card-content">
+                                    <p class="card-title">HTC VIVE / Virtual Reality</p>
+                                    <p><i class="middle-align small material-icons">replay</i>N/A</p>
+                                    <p><i class="middle-align small material-icons">av_timer</i>N/A</p>
+                                    <p><i class="middle-align small material-icons">location_on</i>VR Lab</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="col m4 s12">
-                        <div class="card sticky-action">
-                            <div class="card-image">
+                    <!-- Begin VR Lab Modal -->
+                    <div id="vrlab" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                            <h4>VR Lab</h4>
                                 <img class="responsive-img activator" src="img/vr-lab.jpg">
-                            </div>
-                            <div class="card-content">
-                                <p class="card-title">HTC VIVE / Virtual Reality</p>
-                                <p><i class="middle-align small material-icons">replay</i>N/A</p>
-                                <p><i class="middle-align small material-icons">av_timer</i>N/A</p>
-                                <p><i class="middle-align small material-icons">location_on</i>VR Lab</p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
-                                <p>The chapter acquired an HTC vive that will allow students to work on projects in Virtual Reality. Students will learn: how to create apps and games for the VR and OpenVR which is a platform for development in VR. The HTC Vive is cutting edge technology in this field.</p>
-                            </div>
+                                <p class="flow-text">The chapter acquired an HTC vive that will allow students to work on projects in Virtual Reality. Students will learn: how to create apps and games for the VR and OpenVR which is a platform for development in VR. The HTC Vive is cutting edge technology in this field.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
                         </div>
                     </div>
-
-
-
-
-                  
 
                 </div>
-
             </div>
-
-            <h1>View Older Dates</h1>
+            <p class="flow-text">View Older Dates</p>
         </div>
-
-
-
-
         <!-- End Container -->
         <footer class="page-footer red darken-4">
             <div class="container">
@@ -194,5 +206,11 @@
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
+        <script>
+            $(document).ready(function() {
+                // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+                $('.modal').modal();
+            });
+        </script>
     </body>
 </html>
