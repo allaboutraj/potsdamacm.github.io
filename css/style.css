@@ -113,6 +113,10 @@
 	vertical-align: middle; !important;
 }
 
+.project-name {
+	font-weight: bold !important;
+}
+
 /* Event styles */
 
 a.card-link {
