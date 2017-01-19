@@ -118,3 +118,8 @@
 a.card-link {
 	color: rgba(0, 0, 0, 0.87);
 }
+
+.event-name {
+	font-size: 40px !important;
+	padding-bottom: 20px;
+}
