@@ -5,19 +5,6 @@
  */
 
 
- .stock-image {
-  /*background-image: url('../img/stock-laptop.jpg');*/
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../stock-background.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  color: white;
-}
-
 .materialize-red {
   background-color: #e51c23 !important;
 }

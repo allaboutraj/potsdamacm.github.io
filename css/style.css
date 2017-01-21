@@ -6,11 +6,55 @@
  * Made By MaterializeCSS.com
  */
 
-.icon-block {
-  padding: 0 15px;
+
+/* Index Styles */
+
+.custom-footer {
+  margin-top: 0px !important;
 }
-.icon-block .material-icons {
-	font-size: inherit;
+
+.cta {
+  margin-bottom: 20px;
+}
+
+ .donate {
+  /*background-image: url('../img/stock-laptop.jpg');*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/parallax/hackpotsdam.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+}
+
+ .stock-image {
+  /*background-image: url('../img/stock-laptop.jpg');*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../stock-background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+}
+
+
+.when-and-where {
+  /*background-image: url('../img/stock-laptop.jpg');*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/parallax/students.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
 }
 
 /* Timeline themes */
