@@ -127,3 +127,37 @@ a.card-link {
 	font-size: 40px !important;
 	padding-bottom: 20px;
 }
+
+/* Donate Styles */
+
+.repository-lang-stats-graph {
+    display: table;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 20px;
+}
+
+.repository-lang-stats-graph .language-color {
+    display: table-cell;
+    line-height: 30px;
+    text-align: center;
+    // text-indent: -9999px;
+}
+
+
+.supporter-amount {
+  font-size: 26px;
+}
+
+.supporter-name {
+  font-size: 18px;
+}
+
+.supporter-comments {
+  padding-top: 20px;
+}
+
+.how-to-donate {
+  font-size: 24px;
+}
