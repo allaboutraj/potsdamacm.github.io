@@ -32,7 +32,7 @@
 
  .stock-image {
   /*background-image: url('../img/stock-laptop.jpg');*/
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../stock-background.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/parallax/stock-background-min.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
