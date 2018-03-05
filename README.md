@@ -3,7 +3,8 @@ Newest iteration of the potsdam acm website.
 
 ## Prereqs
 1. Git installed on your machine
-2. A modern web browser 
+2. Ruby installed
+3. A modern web browser
 
 ## Contributing to the project
 1. Clone the repo with `https://github.com/PotsdamACM/potsdamacm.github.io.git`
@@ -15,3 +16,16 @@ Newest iteration of the potsdam acm website.
 7. Type your commit message. Please see http://chris.beams.io/posts/git-commit/ for a good standard.
 8. Push your changes to your branch `git push some-branch-name origin`
 9. Changes are pushed! Now we can check it out for code review before merging with the master branch.
+
+## Running locally
+1. Install Jekyll on your machine.
+
+```bash
+bundle install
+```
+
+2. Run the server (defaults to port 4000)
+
+```bash
+bundle exec jekyll serve --incremental
+```
